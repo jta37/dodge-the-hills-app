@@ -1,7 +1,11 @@
+// app.js 
+
+// require node modules
 var express = require ('express'),
 
 		app = express();
 
+// set view engine to ejs
 app.set('view engine', 'ejs');
 
 app.get("/", function(req,res) {
